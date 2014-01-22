@@ -43,7 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="CommandHandlers\ChangeItemCommandHandler.cs" />
     <Compile Include="CommandHandlers\CreateItemCommandHandler.cs" />
+    <Compile Include="CommandHandlers\DeleteItemCommandHandler.cs" />
     <Compile Include="CommandHandlers\ICommandHandler.cs" />
     <Compile Include="Commands\ChangeItemCommand.cs" />
     <Compile Include="Commands\Command.cs" />
