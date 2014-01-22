@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="CommandHandlers\CreateItemCommandHandler.cs" />
     <Compile Include="CommandHandlers\ICommandHandler.cs" />
     <Compile Include="Commands\ChangeItemCommand.cs" />
     <Compile Include="Commands\Command.cs" />
@@ -50,8 +51,10 @@
     <Compile Include="Commands\DeleteItemCommand.cs" />
     <Compile Include="Commands\ICommand.cs" />
     <Compile Include="Domain\AggregateRoot.cs" />
+    <Compile Include="Domain\DiaryItem.cs" />
     <Compile Include="Domain\IEventProvider.cs" />
     <Compile Include="Domain\Mementos\BaseMemento.cs" />
+    <Compile Include="Domain\Mementos\DiaryItemMemento.cs" />
     <Compile Include="EventHandlers\IEventHandler.cs" />
     <Compile Include="EventHandlers\ItemCreatedEventHandler.cs" />
     <Compile Include="EventHandlers\ItemDeletedEventHandler.cs" />
